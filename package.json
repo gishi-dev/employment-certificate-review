@@ -1,0 +1,16 @@
+{
+  "name": "employment-certificate-review",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "架空社員の就労証明書の下書きと根拠を照合する公開デモ",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check server.mjs && node --check app.js && node --check reconciliation.js"
+  },
+  "dependencies": {}
+}
